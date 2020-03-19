@@ -53,7 +53,7 @@
           <input id="email" type="email" placeholder="me@me.com" name="email" required>
         </div>
         <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="phone">Phone Number</label>
+          <label for="phone">Phone number (optional)</label>
           <input id="phone" type="phone" name="phone" required>
         </div>
       </div>
@@ -142,16 +142,47 @@
         <label for="checkbox">Speaking to groups</label>
       </div>
     </fieldset>
+
     <fieldset class="push-0">
-      <legend class="giga italic push">Mission statement</legend>
+      <legend class="giga italic push">Do you have a valid driver’s license?</legend>
+
+      <input type="radio" id="yes" name="fav-color">
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no" name="fav-color">
+      <label for="no">No</label>
+    </fieldset>
+
+    <fieldset class="push-0">
+      <legend class="giga italic push">Do you have a pick-up truck you’d be willing to use?</legend>
+
+      <input type="radio" id="yes" name="fav-color">
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no" name="fav-color">
+      <label for="no">No</label>
+    </fieldset>
+
+    <fieldset class="push-0">
+      <legend class="giga italic push">Do you have up-to-date first-aid certification?</legend>
+
+      <input type="radio" id="yes" name="fav-color">
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no" name="fav-color">
+      <label for="no">No</label>
+    </fieldset>
+
+    <fieldset class="push-0">
+      <legend class="giga italic push"></legend>
       <div class="push">
-        <label for="details">Why do you want to go to Mars?</label>
+        <label for="details">Please let us know any comments or questions you may have.</label>
         <textarea id="details" name="mission-statement" required></textarea>
       </div>
     </fieldset>
 
     <div>
-      <button class="btn" type="submit">Register for the trip!</button>
+      <button class="btn" type="submit">Apply</button>
     </div>
     <input type="hidden" name="_subject" value="Request to join the mission">
 
