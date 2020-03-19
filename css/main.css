@@ -15,8 +15,9 @@ legend {
   padding-right: 1rem;
 }
 
-h1 {
-  border-bottom: solid 1px #000;
+h1, p {
+  color: #fff;
+  background-color: #70ad55;
 }
 
 @media only screen and (min-width: 60em) {
