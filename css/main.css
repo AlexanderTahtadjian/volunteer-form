@@ -26,6 +26,11 @@ h1, .p-1, footer {
   border-color: #6e8c62;
 }
 
+.section-1 {
+  border-bottom: 1rem;
+  border-bottom-color: #6e8c62;
+}
+
 @media only screen and (min-width: 60em) {
 
   .pad-right {
