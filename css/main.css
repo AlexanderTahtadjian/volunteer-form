@@ -15,9 +15,15 @@ legend {
   padding-right: 1rem;
 }
 
-h1, p {
+h1, p, footer {
   color: #fff;
   background-color: #70ad55;
+}
+
+.btn {
+  color: #fff;
+  background-color: #6e8c62;
+  border: none;
 }
 
 @media only screen and (min-width: 60em) {
