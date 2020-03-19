@@ -15,7 +15,7 @@ legend {
   padding-right: 1rem;
 }
 
-h1, .p-1, footer {
+header, footer {
   color: #fff;
   background-color: #70ad55;
 }
