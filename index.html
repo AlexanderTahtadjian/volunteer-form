@@ -13,8 +13,8 @@
 <body>
 
   <form class="gutter pad-t-2 pad-b-2 max-length" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
-    <h1 class="normal">Want to go to Mars?</h1>
-    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <h1 class="normal">Apply to be a tree planter</h1>
+    <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
 
     <fieldset class="push-0">
       <legend class="giga italic push">Personal details</legend>
@@ -22,24 +22,30 @@
       <div class="grid">
 
         <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="name">Name</label>
-          <input id="name" name="name" required>
+          <label for="full-name">Full name</label>
+          <input id="full-name" type="full-name" placeholder="Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”." name="full-name" required>
         </div>
         <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="age">Age</label>
-          <input id="age" name="age" required>
+          <label for="call-you">What should we call you?</label>
+          <input id="call-you" type="call-you" placeholder="What all your friends call you, e.g. “Liz”.”." name="call-you" required>
         </div>
         <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
           <label for="email">Email</label>
           <input id="email" type="email" placeholder="me@me.com" name="email" required>
         </div>
         <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push-1-2">
-          <label for="subject">Physical fitness</label>
-          <select id="subject" name="_subject">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
+          <label for="subject">T-shirt size</label>
+          <select id="subject" type="subject" placeholder="Select a t-shirt size" name="_subject">
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M </option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
           </select>
         </div>
       </div>
